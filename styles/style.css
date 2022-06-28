@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap');
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block; /*bloco em linha*/
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#botao_inscreva-se{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#botao_inscreva-se:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+h1{
+    font-size: 65px;
+    font-weight: 100;
+    font-family: 'Yellowtail', cursive;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Mulish', sans-serif;
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+p{
+    line-height: 20px; /*espaçamento da linha*/
+    max-width: 500px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+img{
+    width: 600px;
+}
+
+/*formulário*/
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%; /*70% do tamanho da total do elemento pai(form)*/
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 18px;
+    border: none;   
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
